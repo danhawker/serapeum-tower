@@ -1,0 +1,12 @@
+---
+
+# Deploy Serapeum from Tower
+- name: Deploy Serapeum with Tower
+
+  roles:
+  - role: serapeum
+    serapeum_stage_prepare: true
+    serapeum_stage_deploy: true
+
+
+# EOF
